@@ -33,6 +33,7 @@ body {
 
 .flex-container2 {
     display: flex;
+    margin-top: 120px;
 }
 
 .flex-item {
