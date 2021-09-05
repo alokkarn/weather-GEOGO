@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+html {
+    height: 100%;
+} 
+
+body {
+    height: 100%;
+    background-image: url("weather.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+
+.flex-container2 {
+    display: flex;
+}
+
+.flex-item {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+.city {
+    margin-top: 33px;
+    text-align: center;
+}
+
+.city h1 {
+    font-size: 3.5rem;
+}
+
+.city small {
+    font-size: 18px;
+}
+
+#temp {
+    font-size: 8rem;
+}
+
+.title {
+    margin: 30px 0px 360px 100px
+}
+
+.content {
+    margin-left: 100px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+}
+
+.search-left {
+    /* margin-right: 15rem; */
+    padding-top: 42px;
+    margin-top: 19px;
+    font-size: 1rem;
+}
+
+.search-icon{
+    /* color : red; */
+    margin-top : 24px;
+    margin-left: 29px;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 21rem;
+    font-size: 1rem;
+}
+
+::placeholder {
+  color: white;
+}
+
+.right-side {
+   backdrop-filter: blur(5px);
+   height: 98vh;
+   padding-left: 2rem;
+}
+
+.right-side img{
+    float: right;
+    padding-left:10px;
+    padding-top:21px;
+    height: 35px;
+    width: 35px;
+}
+
+.search-right {
+  padding-top: 0px;
+  padding-right: 0px;
+  background-color: orange;
+    width: 100px;
+    height: 80px;
+}
+
+.cities h2 {
+    margin: 2rem 0 2rem 0;
+    font-size: 1.2rem;
+}
+
+.cities {
+    margin: 2rem 0 2rem 0;
+    font-size: 1.2rem;
+}
+
+.weather-details {
+    margin-top: 2rem;
+}
+
+.weather-details h2 {
+    margin-bottom: 1.5rem;
+}
+
+.weather-info {
+    margin-bottom: 3rem;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
